@@ -96,20 +96,7 @@ export default {
     return {
       newTodo: "",
       idForTodo: 0,
-      todos: [
-        {
-          id: 1,
-          title: "Finish frontend",
-          completed: false,
-          editing: false,
-        },
-        {
-          id: 2,
-          title: "add a ui framework",
-          completed: false,
-          editing: false,
-        },
-      ],
+      todos: [],
     };
   },
   methods: {
