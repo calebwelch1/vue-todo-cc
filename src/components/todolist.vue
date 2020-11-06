@@ -65,9 +65,12 @@
                     v-model="todo.title"
                     @keyup.enter="finishEditTodo"
                   />
-                  <button class="save-edit-todo" @click="finishEditTodo(todo)">
-                    Save
-                  </button>
+                  <md-button
+                    class="save-edit-todo md-fab md-mini md-plain"
+                    @click="finishEditTodo(todo)"
+                  >
+                    <md-icon>save</md-icon>
+                  </md-button>
                 </div>
               </div>
             </div>
